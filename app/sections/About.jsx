@@ -21,7 +21,11 @@ const About = () => {
   return (
     <div id="#about" className="pt-52 min-h-full">
       <Container className=" flex items-center w-full gap-10 text-white">
-        <div className="relative z-20 bg-gradient-to-l from-[#032628] to-gray-800 border-4 border-yellow w-[1600px]">
+        <div
+          data-aos="zoom-in"
+          // data-aos-mirror="true"
+          className="relative z-20 bg-gradient-to-l from-[#032628] to-gray-800 border-4 border-yellow w-[1600px]"
+        >
           <div className="absolute w-full h-full z-10 bg-gradient-to-l from-[#032628] to-gray-700"></div>
           <div className="absolute w-full h-full z-0 bg-white -right-[10px] -bottom-3"></div>
           <Image src={rima2} alt="" className="w-full relative z-20" />
