@@ -2,11 +2,10 @@
 import React, { useState } from "react";
 import Container from "../../layer/Container";
 import SectionTitle from "../../layer/SectionTitle";
-import SeactionHeading from "../../layer/SeactionHeading";
-import Link from "next/link";
 import Ecommerce from "./Ecommerce";
 import Css from "./Css";
 import JavaScript from "./JavaScript";
+import SectionHeading from "@/app/layer/SectionHeading";
 
 const projectItem = [
   { title: "Show all" },
@@ -27,9 +26,9 @@ const Project = () => {
     <div id="#projects">
       <Container className="pt-52 pb-5 text-white flex flex-col items-center justify-center gap-8">
         <SectionTitle titleText="Latest Works" />
-        <SeactionHeading>
+        <SectionHeading>
           View My Latest <span className="text-yellow">Works</span>
-        </SeactionHeading>
+        </SectionHeading>
         <ul className="flex gap-12 items-center justify-center">
           {projectItem.map((item, index) => (
             <li key={index}>

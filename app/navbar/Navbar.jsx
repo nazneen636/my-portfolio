@@ -18,7 +18,11 @@ const Navbar = () => {
   return (
     <nav className="sticky z-[1000] left-0 top-0 w-full bg-[#E8C83E] py-3 border-b border-[#03262879]">
       <Container className="flex items-center justify-between">
-        <Image className="w-20 h-20  rounded-full bg-DarkGreen" src={profile} />
+        <Image
+          alt=""
+          className="w-20 h-20  rounded-full bg-DarkGreen"
+          src={profile}
+        />
         <ul className="flex items-center gap-9">
           {menuItem.map((item) => (
             <li key={item.id}>

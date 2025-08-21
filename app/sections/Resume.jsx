@@ -2,11 +2,10 @@
 import React, { useEffect } from "react";
 import Container from "../layer/Container";
 import SectionTitle from "../layer/SectionTitle";
-import SeactionHeading from "../layer/SeactionHeading";
-import { BsArrowUpRight } from "react-icons/bs";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import SectionHeading from "../layer/SectionHeading";
 
 const Resume = () => {
   useEffect(() => {
@@ -20,10 +19,10 @@ const Resume = () => {
     <div id="#resume" className="pt-52 min-h-full">
       <Container className="text-white flex flex-col gap-8 items-center justify-center">
         <SectionTitle titleText="My Resume" />
-        <SeactionHeading>
+        <SectionHeading>
           Showcase Your <span className="text-yellow">Talent</span> amplifing
           your impact
-        </SeactionHeading>
+        </SectionHeading>
         <div className="relative mt-8 text-black flex justify-between w-full py-12 px-10 bg-yellow rounded-lg">
           <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 h-40 bg-[#000000c5] w-[2px]"></div>
           <div className="w-full">

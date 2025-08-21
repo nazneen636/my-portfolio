@@ -1,7 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { TbBrandGithubFilled } from "react-icons/tb";
 import { FaGithubAlt } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";

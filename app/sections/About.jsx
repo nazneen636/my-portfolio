@@ -3,12 +3,12 @@ import React, { useEffect } from "react";
 import Container from "../layer/Container";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
-import rima from "../../public/rimaBg.JPG";
 import rima2 from "../../public/rimaBg2.png";
 import SectionTitle from "../layer/SectionTitle";
-import SeactionHeading from "../layer/SeactionHeading";
+// import SeactionHeading from "../layer/SectionHeading";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import SectionHeading from "../layer/SectionHeading";
 
 const About = () => {
   useEffect(() => {
@@ -24,16 +24,16 @@ const About = () => {
         <div className="relative z-20 bg-gradient-to-l from-[#032628] to-gray-800 border-4 border-yellow w-[1600px]">
           <div className="absolute w-full h-full z-10 bg-gradient-to-l from-[#032628] to-gray-700"></div>
           <div className="absolute w-full h-full z-0 bg-white -right-[10px] -bottom-3"></div>
-          <Image src={rima2} className="w-full relative z-20" />
+          <Image src={rima2} alt="" className="w-full relative z-20" />
         </div>
         <div className="flex flex-col gap-8">
           <SectionTitle titleText="About Me" />
-          <SeactionHeading>
+          <SectionHeading>
             A passionate{" "}
             <span className="text-yellow">MERN Stack Developer</span> turning
             ideas into visually stunning, user-friendly,{" "}
             <span className="text-yellow">responsive</span> websites.
-          </SeactionHeading>
+          </SectionHeading>
           <p
             // data-aos="fade-in"
             // data-aos-duration="500"

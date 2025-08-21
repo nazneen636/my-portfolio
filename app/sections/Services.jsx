@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import SectionTitle from "../layer/SectionTitle";
-import SeactionHeading from "../layer/SeactionHeading";
 import Container from "../layer/Container";
 import { FaCode } from "react-icons/fa";
 import { MdDevices } from "react-icons/md";
@@ -11,6 +10,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BiRocket } from "react-icons/bi";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import SectionHeading from "../layer/SectionHeading";
 
 const serviceItems = [
   {
@@ -63,10 +63,10 @@ const Services = () => {
     <div id="#service">
       <Container className="pt-52 text-white flex flex-col items-center justify-center gap-8">
         <SectionTitle titleText="Services" />
-        <SeactionHeading className="text-center">
+        <SectionHeading className="text-center">
           My <span className="text-yellow">Special Services</span> For
           <br /> your Project
-        </SeactionHeading>
+        </SectionHeading>
         {/* ===============cards===== */}
         <div className="cards mt-8 grid grid-cols-3 gap-8">
           {serviceItems.map((item, index) => (

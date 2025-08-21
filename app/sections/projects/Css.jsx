@@ -5,7 +5,7 @@ import finsweet1 from "../../../public/projects/cart2.png";
 import agency1 from "../../../public/projects/agency1.png";
 import blog1 from "../../../public/projects/blog1.png";
 import qwery1 from "../../../public/projects/qwery1.png";
-import Image from "next/image";
+
 // import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
