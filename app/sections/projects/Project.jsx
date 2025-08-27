@@ -6,6 +6,7 @@ import Ecommerce from "./Ecommerce";
 import Css from "./Css";
 import JavaScript from "./JavaScript";
 import SectionHeading from "@/app/layer/SectionHeading";
+// import lib from "../../lib/lib";
 
 const projectItem = [
   { title: "Show all" },
@@ -30,7 +31,7 @@ const Project = () => {
           View My Latest <span className="text-yellow">Works</span>
         </SectionHeading>
         <ul className="flex gap-12 items-center justify-center">
-          {projectItem.map((item, index) => (
+          {projectItem?.map((item, index) => (
             <li key={index}>
               <div
                 onClick={() => handleTabClick(item.title)}
